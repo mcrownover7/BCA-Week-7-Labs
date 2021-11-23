@@ -1,0 +1,1 @@
+In this lab we'll be creating a simple username and password authentication system, allowing users to access a personalized dashboard. For security reasons we will also be encrypting their passwords on the database using bcrypt so that no one (other than the user) will know what their password is.
