@@ -1,0 +1,1 @@
+In this lab we will be creating a class that will handle all our database transactions to allow us to interact with a Mongo database more easily, efficiently, and consistently. We will be using it top set up a simple CLI tool that will allow us to Create new documents, Read, and Update existing documents, and Delete previously created entries to track books in a library.
