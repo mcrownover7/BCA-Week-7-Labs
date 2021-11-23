@@ -1,0 +1,1 @@
+In this lab we will be setting up a front end React application that will allow the user to interact with a database, with a server acting as the interface between the two. We'll be building this off of the code we wrote for our Data Store lab (mongo-example-lab) so that we can hook into the functionality of the DataStore class.
