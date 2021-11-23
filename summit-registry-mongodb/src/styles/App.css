@@ -1,0 +1,82 @@
+/*------------CSS Defaults------------*/
+
+/* using the universal * selector, this applies a top margin to elements that follow another element and creates universal vertical rhythm */
+
+* + * {
+  margin: 0.3vw;
+}
+
+/* Set body to fill the viewport even when empty; making the choice to prioritize beauty over loading speed because the text is minimal and what is present is important; adjusts line height for accessibility  */
+body {
+  min-height: 100vh;
+  margin-top: 1vw;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  background-color: #e2ecff;
+}
+
+/* sets default on img for ease of styling */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+td,
+th {
+  font-family: "Source Sans Pro", sans-serif;
+  
+}
+
+h1
+ {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4vw;
+  background-color: white;
+  padding: 0 1vw 0 1vw;
+  text-align: center;
+}
+
+/*-------------Elements-----------*/
+#layout-grid {
+  display: grid;
+  grid-template-columns: 20vw 20vw 10vw 20vw 20vw;
+  grid-template-rows: auto;
+  grid-template-areas: ". welcome . registry registry";
+}
+
+#welcome {
+  grid-area: welcome;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#control-registry {
+    font-size: 1.5vw;
+}
+
+#registry {
+  grid-area: registry;
+}
+
+#entries {
+  display: inline;
+}
+
+
+table {
+  width: 40vw;
+}
+
+td,
+th {
+background-color: white;
+  width: 30vw;
+  border: 1px solid #999;
+  padding: .5vw;
+  text-align: center;
+ 
+}
